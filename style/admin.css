@@ -1,0 +1,272 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+}
+
+button {
+  cursor: pointer;
+}
+
+.wrap {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.sect {
+    display: flex;
+  }
+  
+  .head-admin {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .logo-admin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #FFC58F;
+    background-size: cover;
+    width: 30%;
+    height: 123px;
+  }
+  
+  .logo-admin h1 {
+    color: white;
+    font-family: "Jomhuria", serif;
+    font-size: 64px;
+    font-weight: 100;
+    padding-top: 6px;
+  }
+  
+  .hello {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFC58F;
+    background-size: cover;
+    width: 100%;
+    height: 123px;
+  }
+  
+  .hello h2 {
+    font-size: 24px;
+    color: #747474;
+    font-weight: 600;
+  }
+  
+  .hello p {
+    font-size: 20px;
+    color: #747474;
+    font-weight: 400;
+  }
+  
+  .sec-admin {
+    background-color: #5E5E5E;
+    background-size: cover;
+    width: 23.1%;
+    height: 100vh;
+  }
+  
+  .user {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .name-admin {
+    padding-top: 30px;
+  }
+  
+  .name-admin h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .name-admin p{
+    color: white;
+    font-size: 16px;
+  }
+  
+  .panel {
+    padding-top: 50px;
+  }
+  
+  .panel .one p {
+    font-size: 20px;
+    color: rgb(161, 161, 161);
+  }
+  
+  .panel .two p {
+    font-size: 20px;
+    color: rgb(161, 161, 161);
+  }
+  
+  .panel .one{
+    max-width: 320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:left ;
+    align-items: center;
+    gap: 13px;
+  }
+  
+  .panel .two{
+    padding-top: 10px;
+    max-width: 320px;
+    margin: 0 auto;
+    width: auto 200px;
+    display: flex;
+    justify-content:left ;
+    align-items: center;
+    gap: 13px;
+  }
+  
+  .tovars-panel {
+    padding-top: 50px;
+    width: 70%;
+  }
+  
+  
+  
+  .tov-txt {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .tov-txt h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(168, 168, 168);
+  }
+  
+  .tov-name {
+    padding-top: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+  }
+  
+  .neme {
+    display: flex;
+    gap: 130px;
+  }
+  
+  .neme p {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  .red {
+    display: flex;
+    gap: 70px;
+  }
+  
+  .red p {
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: underline;
+    color: black;
+  }
+  
+  .slide {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+  }
+
+  @media (max-width:550px) {
+    .size-1200px {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  
+    .cards-tov {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .sub-line {
+      display: none;
+    }
+  
+    .inp-reg hr{
+      width: 200px;
+    }
+  
+    .inp-reg input {
+      width: 200px;
+    }
+  
+    .registration {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .tov-name {
+      display: flex;
+      margin: 0 auto;
+      margin-left: 0;
+    }
+  
+    .tovars-panel {
+      margin-left: 10px;
+    }
+  }
+  
+  @media (max-width:450px) {
+    .size-1200px {
+      max-width: 300px;
+      margin: 0 auto;
+    }
+  
+    .cards-tov {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .sub-line {
+      display: none;
+    }
+  
+    .card {
+      border-radius: 20px;
+    }
+  
+    .sec {
+      gap: 10px;
+    }
+  
+    .subsvribe-sec {
+      margin-bottom: 30px;
+    }
+  
+    .banner-txt .txt h2{
+      font-size: 72px;
+    }
+  
+    .banner-txt .txt p{
+      font-size: 18px;
+    }
+  }

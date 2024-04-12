@@ -1,0 +1,323 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    scroll-behavior: smooth;
+}
+
+button {
+    cursor: pointer;
+}
+
+.wrap {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* NadHeader */
+
+.nadheader {
+    margin-bottom: 40px;
+}
+
+.nadheader_text {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.menu_btn {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 16px;
+    border: 2px white solid;
+    transition: 0.2s;
+    color: #949494;
+}
+
+.nadheader_text p {
+    font-size: 16px;
+    color: #949494;
+    padding: 10px;
+    right: 100px;
+}
+
+.btnn {
+    display: flex;
+}
+
+/* Header */
+
+.headeer {
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+}
+
+.header__logoo {
+    gap: -10px;
+}
+
+.header_btn {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 22px;
+    border: 2px white solid;
+    transition: 0.2s;
+    color: #000000;
+}
+
+.header_btn:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 4px;
+    background-color: #FFC58F;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.header_btn:hover::after {
+    transform: scaleX(1);
+}
+
+.header_btn {
+    position: relative;
+}
+
+.header__logo:hover {
+    transform: scale(1.1);
+}
+
+.header__logo {
+    transition: 0.3s;
+}
+
+.header__logoo:hover {
+    transform: scale(1.1);
+}
+
+.header__logoo{
+    transition: 0.3s;
+}
+
+.headeer {
+    margin-bottom: 60px;
+}
+
+
+/* reg */
+.registration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    padding-bottom: 150px;
+  }
+  
+  .reg {
+    padding-top: 90px;
+  }
+  
+  .reg h2{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .inp-reg {
+   
+    padding-top: 10px;
+  }
+  
+  .inp-reg input{
+    margin-top: 50px;
+    border: none;
+    width: 420px;
+    height: 30px;
+    background-color: #ffffff;
+  }
+  
+  .inp-reg hr{
+    width: 420px;
+    margin-top: 30px;
+  }
+  
+  .btn-reg {
+    padding-top: 90px;
+  }
+  
+  .btn-reg button {
+    padding: 20px 90px;
+    background-color: #f3af70;
+    border-radius: 100px;
+    border: 1px solid #f3af70;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .reg-sogl {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    gap: 20px;
+  }
+  
+  .reg-sogl p {
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .footer_sec {
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #FFC58F;
+    opacity: 0.7;
+}
+
+.footer_obj {
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+}
+
+.kont_img{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.kont h2{
+    color: rgb(0, 0, 0);
+}
+
+.footer_text {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: .3s;
+}
+
+.footer_text h2 {
+    padding-bottom: 20px;
+}
+
+.footer_text a:hover {
+    color: #ffffff;
+}
+
+.footer_text a{
+    margin: 20px 0;
+    color: rgb(0, 0, 0);
+}
+
+.fzvon {
+    width: 273px;
+    height: 61px;
+    border-radius: 55px;
+    border: 2px solid #f3af70;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.fzvon:hover {
+    transition: 0.3s;
+    background-color: #f3af70;
+    color: #ffffff;
+}
+
+.fzvn {
+    text-align: center;
+}
+
+
+@media (max-width:550px) {
+    .size-1200px {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  
+    .cards-tov {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .sub-line {
+      display: none;
+    }
+  
+    .inp-reg hr{
+      width: 200px;
+    }
+  
+    .inp-reg input {
+      width: 200px;
+    }
+  
+    .registration {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .tov-name {
+      display: flex;
+      margin: 0 auto;
+      margin-left: 0;
+    }
+  
+    .tovars-panel {
+      margin-left: 10px;
+    }
+  }
+  
+  @media (max-width:450px) {
+    .size-1200px {
+      max-width: 300px;
+      margin: 0 auto;
+    }
+  
+    .cards-tov {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .sub-line {
+      display: none;
+    }
+  
+    .card {
+      border-radius: 20px;
+    }
+  
+    .sec {
+      gap: 10px;
+    }
+  
+    .subsvribe-sec {
+      margin-bottom: 30px;
+    }
+  
+    .banner-txt .txt h2{
+      font-size: 72px;
+    }
+  
+    .banner-txt .txt p{
+      font-size: 18px;
+    }
+  }
